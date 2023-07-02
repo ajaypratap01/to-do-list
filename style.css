@@ -12,7 +12,10 @@
     
   }
   
-  .container {  height: 50vh;
+  .container { 
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
     overflow: auto;
     background: rgba(255, 255, 255, 0.269);
     backdrop-filter: blur(5px);
@@ -20,8 +23,7 @@
     border-radius: 5px;
     border: 2px solid #f44336;
     padding: 10px;
-    margin: 10px auto;
-    max-width: 500px;
+    
     text-align: center;
   }
   
@@ -35,8 +37,9 @@
     padding: 5px;
     background: transparent;
     outline: none;
-    border: none;
+    border: 2px solid #000;
     color: #f91404;
+    max-width: 100%;
   }
   
   button {
@@ -55,5 +58,5 @@
   }
 
   /* ul li button{text-align: end;} */
-  ul li{ margin: 10px 10px; display: flex; justify-content: space-between; color: black; max-width: 100%; }
+  ul li{ margin: 10px 10px; display: flex; justify-content: space-between; color: black; max-width: 100%; flex-wrap: wrap;}
   
