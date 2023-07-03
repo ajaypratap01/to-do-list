@@ -14,7 +14,7 @@
   
   .container { 
     height: auto;
-    width: 100%;
+    width: 90%;
     margin: 10px auto;
     overflow: auto;
     background: rgba(255, 255, 255, 0.269);
@@ -39,16 +39,17 @@
     outline: none;
     border: 2px solid #000;
     color: #f91404;
-    max-width: 100%;
+    width: 100%;
   }
   
   button {
     border-radius: 5px;
     border: none;
-    margin-right: 10px;
+    margin: 0px 10px;
     font-size: 1.2em;
     padding: 5px;
     text-transform: capitalize;
+      width: 40%;
   }
   
   ul {  
